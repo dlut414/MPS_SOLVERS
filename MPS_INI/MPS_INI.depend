@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1391336972 source:/home/hfy/Desktop/projects/MPS_SOLVER/MPS_INI/main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+
+1419963816 source:/home/kozuki/Desktop/projects/MPS_SOLVER/MPS_INI/main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+

@@ -1,0 +1,8 @@
+mps_cal_v2.0
+
+implicit & explicit algorithm
+openmp implemented
+cell list implementation
+solve gravity within the implicit step
+
+! CUDA acceleration (cublas)

@@ -1,0 +1,18 @@
+mps_cal_expl_gl_v4.0
+
+implicit & explicit algorithm
+openmp implemented
+cell list implementation
+
+ CUDA acceleration (cublas)
+ fully explicit solver
+ Neumann boundary condition
+ dealing with excluded particles
+ openGL
+ visc & pres in two step
+ performance optimization
+ communication optimization
+ rendering & shader
+ cubic spline
+ norm optimization
+! stable algorithm

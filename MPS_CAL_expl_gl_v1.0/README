@@ -1,0 +1,12 @@
+mps_cal_v4.0
+
+implicit & explicit algorithm
+openmp implemented
+cell list implementation
+
+! CUDA acceleration (cublas)
+! fully explicit solver
+! Neumann boundary condition
+! dealing with excluded particles
+! openGL
+! visc & pres in one step

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="MPS.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MPS.h" open="1" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MPS_CPU.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MPS_CPU.h" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MPS_CPU_EXPL.cpp" open="1" top="0" tabpos="21">
+		<Cursor position="1617" topLine="9" />
+	</File>
+	<File name="MPS_CPU_EXPL.h" open="1" top="0" tabpos="20">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MPS_CPU_IMPL.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MPS_CPU_IMPL.h" open="0" top="0" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MPS_GPU.cpp" open="1" top="0" tabpos="18">
+		<Cursor position="0" topLine="109" />
+	</File>
+	<File name="MPS_GPU.h" open="1" top="0" tabpos="17">
+		<Cursor position="493" topLine="0" />
+	</File>
+	<File name="MPS_GPU_EXPL.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="MPS_GPU_EXPL.h" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="common.h" open="1" top="0" tabpos="16">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="cuda_ker.cu" open="1" top="0" tabpos="19">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="def_incl.h" open="1" top="0" tabpos="15">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="input.dat" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="typedef.h" open="1" top="1" tabpos="14">
+		<Cursor position="235" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,71 @@
+/*
+ * LICENCE
+ * copyright 2014 ~ ****
+ * Some rights reserved.
+ * Author: HUFANGYUAN
+ * Published under CC BY-NC
+*/
+#ifndef VECTOR_H
+#define VECTOR_H
+
+#include <cmath>
+
+class Vector
+{
+public:
+    Vector(const float& _x = 0, const float& _y = 0, const float& _z = 0) : x(_x), y(_y), z(_z)
+    {}
+    ~Vector()
+    {}
+
+    inline const Vector operator- () const
+    {
+	return Vector(-x, -y, -z);
+    }
+
+    inline const Vector operator* (const float& s) const
+    {
+        return Vector(s*x, s*y, s*z);
+    }
+
+    inline const float operator* (const Vector& v) const
+    {
+	return v.x*x + v.y*y + v.z*z;
+    }
+
+    inline float mag2() const
+    {
+        return (x*x + y*y + z*z);
+    }
+
+    inline float mag() const
+    {
+        return sqrt(mag2());
+    }
+
+    void operator+= (const Vector& v)
+    {
+        x+=v.x; y+=v.y; z+=v.z;
+    }
+
+public:
+    float x, y, z;
+
+};
+
+inline const Vector operator* (const float& s, const Vector& v)
+{
+    return Vector(s*v.x, s*v.y, s*v.z);
+}
+
+inline const Vector operator+ (const Vector& v1, const Vector& v2)
+{
+    return Vector(v1.x+v2.x, v1.y+v2.y, v1.z+v2.z);
+}
+
+inline const Vector operator- (const Vector& v1, const Vector& v2)
+{
+    return Vector(v1.x-v2.x, v1.y-v2.y, v1.z-v2.z);
+}
+
+#endif // VECTOR_H

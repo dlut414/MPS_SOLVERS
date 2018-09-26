@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1390999068 source:/home/hfy/Desktop/projects/MPS_SOLVER/MPS_POST/main.cpp
+	<iostream>
+	"MPS_POST.h"
+
+1392882314 /home/hfy/Desktop/projects/MPS_SOLVER/MPS_POST/MPS_POST.h
+	<cstdio>
+
+1393928383 source:/home/hfy/Desktop/projects/MPS_SOLVER/MPS_POST/MPS_POST.cpp
+	"MPS_POST.h"
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<cstring>
+	"common.h"
+
+1394008398 /home/hfy/Desktop/projects/MPS_SOLVER/MPS_POST/common.h
+

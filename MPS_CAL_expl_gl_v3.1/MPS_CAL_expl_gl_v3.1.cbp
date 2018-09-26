@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MPS_CAL_expl_gl_v3.1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MPS_CAL_v4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="nvcc_cuda_complier" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Option projectIncludeDirsRelation="0" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Option projectLibDirsRelation="0" />
+				<Compiler>
+					<Add directory="/usr/local/NVIDIA_CUDA-6.0_Samples/common/inc" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgomp -lpthread" />
+					<Add option="-lcublas -lcusparse" />
+					<Add option="-lGL -lGLU -lX11 -lXi -lXmu -lglut  -lGLEW" />
+					<Add directory="/usr/lib/x86_64-linux-gnu" />
+				</Linker>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MPS_CAL_Serial" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="nvcc_cuda_complier" />
+				<Option projectCompilerOptionsRelation="0" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Option projectIncludeDirsRelation="0" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Option projectLibDirsRelation="0" />
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Camera.cpp" />
+		<Unit filename="Camera.h" />
+		<Unit filename="MOTION.cpp" />
+		<Unit filename="MOTION.h" />
+		<Unit filename="MPS.cpp" />
+		<Unit filename="MPS.h" />
+		<Unit filename="MPS_GPU.cpp" />
+		<Unit filename="MPS_GPU.h" />
+		<Unit filename="OBJECT.h" />
+		<Unit filename="Quaternion.h" />
+		<Unit filename="Renderer.cpp" />
+		<Unit filename="Renderer.h" />
+		<Unit filename="Voxel.h" />
+		<Unit filename="common.h" />
+		<Unit filename="def_incl.h" />
+		<Unit filename="gpu_kernel/mps_gpu_cudaker.cu">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
+		<Unit filename="gpu_kernel/mps_gpu_cudaker.h" />
+		<Unit filename="gpu_kernel/renderer_gpu_cudaker.cu">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
+		<Unit filename="gpu_kernel/renderer_gpu_cudaker.h" />
+		<Unit filename="header_PCH.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="input.dat" />
+		<Unit filename="main.cpp" />
+		<Unit filename="marchingCube_define.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="marchingCube_table.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="shaders1/fragment1.glsl" />
+		<Unit filename="shaders1/vertex1.glsl" />
+		<Unit filename="typedef.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

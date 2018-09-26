@@ -1,0 +1,20 @@
+successfully load 'dimention': 3
+successfully load 'rho': 1.00e+03
+successfully load 'viscosity': 1.00e-06
+successfully load 'dp': 6.00e-03
+successfully load 'rzero': 2.100
+successfully load 'rlap': 2.100
+successfully load 'beta': 0.970
+successfully load 'cs': 10.000
+successfully load 'CFL': 0.400
+successfully load 'collision distance': 0.800
+successfully load 'collision rate': 1.000
+successfully load 'dt_max': 8.00e-04
+successfully load 'dt_min': 1.00e-03
+successfully load 'total time': 0.5
+successfully load 'tout': 1.000e-03
+successfully load 'max_dis': 1.000e-03
+successfully Created geometry!
+particle num: 68940, bd2 num: 38160, bd1 num: 16956 
+successfully Allocated cell list!
+successfully Calculated const parameters!

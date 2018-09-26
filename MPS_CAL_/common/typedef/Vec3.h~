@@ -1,0 +1,21 @@
+/*
+ * LICENCE
+ * copyright 2014 ~ ****
+ * Some rights reserved.
+ * Author: HUFANGYUAN
+ * Released under CC BY-NC
+*/
+#ifndef VEC3_H
+#define VEC3_H
+
+
+class Vec3
+{
+    public:
+        Vec3() {}
+        ~Vec3() {}
+    protected:
+    private:
+};
+
+#endif // VEC3_H

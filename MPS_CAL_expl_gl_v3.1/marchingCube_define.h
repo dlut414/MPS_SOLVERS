@@ -1,0 +1,8 @@
+#ifndef MARCHINGCUBE_DEFINE_H_INCLUDED
+#define MARCHINGCUBE_DEFINE_H_INCLUDED
+
+#define ISO         0.8f
+#define VOXEL_SIZE  0.2f
+#define DIFF        0.01f
+
+#endif // MARCHINGCUBE_DEFINE_H_INCLUDED
